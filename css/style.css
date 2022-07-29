@@ -95,6 +95,11 @@ body {
     font-size: calc(2.5rem + 1.7vw);
 }
 
+.carousel-caption p {
+    width: 90%;
+    margin: auto;
+}
+
 /* Course Section */
 .course-row img {
     object-fit: cover;
@@ -190,7 +195,7 @@ body {
     color: var(--color-white);
 }
 
-.address {
+.footer-address {
     width: 20rem;
     margin: 1rem auto .5rem;
 }

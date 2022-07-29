@@ -64,6 +64,20 @@
     .faq-accordion {
         width: auto;
     }
+
+    /* Section Company */
+    .company {
+        display: none;
+    }
 }
 
-@media(max-width: 575px) {}
+@media(max-width: 575px) {
+    .carousel-caption p {
+        width: 100%;
+    }
+
+    .footer-address {
+        width: auto;
+        margin: 1rem auto .5rem;
+    }
+}
