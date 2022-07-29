@@ -6,6 +6,10 @@
     .carousel-details {
         width: 80%;
     }
+
+    .about-row {
+        background: transparent;
+    }
 }
 
 @media(max-width: 767px) {
@@ -13,6 +17,15 @@
         object-fit: cover;
     }
     .section-caption {
+        width: 100%;
+    }
+
+    .register-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .register-text {
         width: 100%;
     }
 }

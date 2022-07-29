@@ -56,7 +56,7 @@ body {
 }
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: calc(1.5rem + 1.2vw);
 }
 
 /* Navbar */
@@ -119,6 +119,10 @@ body {
     background: var(--color-prim);
     color: var(--color-white);
     padding: 3rem 5.5rem;
+}
+
+.register-text {
+    width: 50%;
 }
 
 .register-btn {
