@@ -3,11 +3,13 @@
 
 *,
 *::before,
-*::after,
-*:focus {
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+*:focus {
     border: 0;
     outline: 0;
 }
@@ -15,6 +17,7 @@
 :root {
     --color-prim: #289BDE;
     --color-white: #fff;
+    --color-dark: #161616;
 }
 
 body {
@@ -44,7 +47,11 @@ body {
 }
 
 .section {
-    padding: 4rem 0;
+    padding: 5rem 0;
+}
+
+.section-caption {
+    width: 40rem;
 }
 
 /* Navbar */
@@ -64,11 +71,11 @@ body {
 
 /* Header Carousel */
 .header {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 .carousel-caption {
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, .5);
     top: 0;
     left: 0;
     width: 100%;
@@ -110,4 +117,72 @@ body {
 .register-btn:hover {
     color: var(--color-white);
     border-color: var(--color-white);
+}
+
+/* Feedback Section */
+.feedback-author h5{
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+.feedback-prev,
+.feedback-next {
+    opacity: 1;
+    color: var(--color-white);
+    background: var(--color-prim);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    top: 50%;
+}
+
+.feedback-prev {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.feedback-next {
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+/* FAQ Section */
+.faq-accordion {
+    width: 60%;
+}
+.accordion-button:focus {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+}
+
+.accordion-button.collapsed {
+    border: 1px solid #dee2e6;
+}
+
+/* Section Footer */
+.footer {
+    background: var(--color-dark);
+}
+
+.footer h2,
+.footer-socials a {
+    color: var(--color-white);
+}
+
+.address {
+    width: 20rem;
+    margin: 1rem auto .5rem;
+}
+
+.footer-socials a {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5rem;
+    margin: 0 .5rem;
 }
