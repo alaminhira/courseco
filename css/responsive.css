@@ -1,0 +1,21 @@
+@media(max-width: 991px) {
+    .carousel-caption h1 {
+        font-size: calc(2rem + 1.2vw);
+    }
+
+    .carousel-details {
+        width: 80%;
+    }
+}
+
+@media(max-width: 767px) {
+    .carousel-item img {
+        object-fit: cover;
+    }
+    .section-caption {
+        width: 100%;
+    }
+}
+
+@media(max-width: 575px) {
+}
