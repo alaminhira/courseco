@@ -125,6 +125,7 @@ body {
 .about-more-btn {
     color: var(--color-prim);
     display: none;
+    /* background: #F4FAFD; */
 }
 
 /* Register Section */
