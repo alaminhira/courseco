@@ -7,17 +7,42 @@
         width: 80%;
     }
 
-    .about-row {
-        background: transparent;
+    /* About Section */
+    .about-img {
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .about-more-btn {
+        display: inline-block;
+    }
+
+    .about-more-text {
+        display: none;
     }
 }
 
 @media(max-width: 767px) {
+    .carousel-item {
+        height: 80vh;
+    }
+
     .carousel-item img {
+        height: 100%;
         object-fit: cover;
     }
+
     .section-caption {
         width: 100%;
+    }
+
+    /* About Section */
+    .about-img {
+        margin-bottom: 3rem;
+    }
+
+    .about-details {
+        margin-top: 3rem;
     }
 
     .register-container {

@@ -110,8 +110,13 @@ body {
 }
 
 /* About Section */
+.about-more-btn {
+    color: var(--color-prim);
+    display: none;
+}
+
 .about-row {
-    background: #F4FAFD;
+    /* background: #F4FAFD; */
 }
 
 /* Register Section */
