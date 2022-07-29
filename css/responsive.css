@@ -12,7 +12,7 @@
         height: 100%;
         object-fit: cover;
     }
-    
+
     .about-more-btn {
         display: inline-block;
     }
@@ -36,15 +36,6 @@
         width: 100%;
     }
 
-    /* About Section */
-    .about-img {
-        margin-bottom: 3rem;
-    }
-
-    .about-details {
-        margin-top: 3rem;
-    }
-
     .register-container {
         flex-direction: column;
         padding: 2rem;
@@ -53,7 +44,26 @@
     .register-text {
         width: 100%;
     }
+
+    /* Feedback Section */
+    .feedback-section-caption {
+        padding-bottom: 3rem;
+    }
+
+    .feedback-prev,
+    .feedback-next {
+        top: -3rem;
+        transform: translate(0, 0);
+    }
+
+    .feedback-prev {
+        left: calc(100% - 5.5rem);
+    }
+
+    /* FAQ Section */
+    .faq-accordion {
+        width: auto;
+    }
 }
 
-@media(max-width: 575px) {
-}
+@media(max-width: 575px) {}
