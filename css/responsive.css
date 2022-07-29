@@ -1,4 +1,11 @@
 @media(max-width: 991px) {
+
+    /* Navbar Section */
+    .nav-btn-tab {
+        margin-left: auto;
+    }
+
+    /* Header Section */
     .carousel-caption h1 {
         font-size: calc(2rem + 1.2vw);
     }
@@ -23,6 +30,8 @@
 }
 
 @media(max-width: 767px) {
+
+    /* Header Section */
     .carousel-item {
         height: 80vh;
     }
@@ -32,10 +41,12 @@
         object-fit: cover;
     }
 
+    /* Section All */
     .section-caption {
         width: 100%;
     }
 
+    /* Register Section */
     .register-container {
         flex-direction: column;
         padding: 2rem;
@@ -65,17 +76,25 @@
         width: auto;
     }
 
-    /* Section Company */
+    /* Company Section */
     .company {
         display: none;
     }
 }
 
 @media(max-width: 575px) {
+
+    /* Navbar Section */
+    .nav-btn-tab {
+        display: none;
+    }
+
+    /* Header Section */
     .carousel-caption p {
         width: 100%;
     }
 
+    /* Footer Section */
     .footer-address {
         width: auto;
         margin: 1rem auto .5rem;
